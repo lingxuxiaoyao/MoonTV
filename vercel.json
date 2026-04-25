@@ -1,6 +1,6 @@
 {
-  "installCommand": "corepack enable && corepack prepare pnpm@10.12.4 --activate && pnpm install",
-  "buildCommand": "pnpm run build",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build"
   "headers": [
     {
       "source": "/fonts/inter-var-latin.woff2",
