@@ -27,9 +27,9 @@ export const UserMenu: React.FC = () => {
   // 设置相关状态
   const [defaultAggregateSearch, setDefaultAggregateSearch] = useState(true);
   const [doubanProxyUrl, setDoubanProxyUrl] = useState('');
-  const [imageProxyUrl, setImageProxyUrl] = useState('');
+  const [imageProxyUrl, setImageProxyUrl] = useState(`${window.location.origin}/api/image-proxy?url=`);
   const [enableOptimization, setEnableOptimization] = useState(true);
-  const [enableImageProxy, setEnableImageProxy] = useState(false);
+  const [enableImageProxy, setEnableImageProxy] = useState(true);
   const [enableDoubanProxy, setEnableDoubanProxy] = useState(false);
 
   // 修改密码相关状态
