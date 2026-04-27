@@ -150,7 +150,7 @@ docker run -d --name moontv -p 3000:3000 --env PASSWORD=your_password ghcr.io/se
 ```yaml
 services:
   moontv:
-    image: ghcr.io/senshinya/moontv:latest
+    image: ghcr.io/lingxuxiaoyao/moontv:latest
     container_name: moontv
     restart: unless-stopped
     ports:
@@ -167,7 +167,7 @@ services:
 ```yaml
 services:
   moontv-core:
-    image: ghcr.io/senshinya/moontv:latest
+    image: ghcr.io/lingxuxiaoyao/moontv:latest
     container_name: moontv
     restart: unless-stopped
     ports:
